@@ -1,0 +1,38 @@
+/* Apply Flexbox to the body to stack elements vertically */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Optional: full viewport height */
+  margin: 0;
+}
+
+/* Make <main> a horizontal flex container */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Let <article> take 2/3 of the horizontal space */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+/* Let <aside> take 1/3 of the horizontal space */
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: #e0e0e0;
+}
+
+/* Optional styles for header and footer */
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
