@@ -4,30 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Flexible Layout Example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="base.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="base.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body class="works_on_smartphone">
-
     <header>
-        <h1>Flexible Layout Example</h1>
+        <nav>
+            <ul>
+                <li class="logo">&#9733;</li> <!-- A simple star icon -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Updates</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <article>
-            <p>This is the main article content.</p>
+            <h2>Welcome!</h2>
+            <p>This is a flexible layout demo using CSS Flexbox. Explore how <code>display: flex</code> helps structure
+                your webpage dynamically and responsively.</p>
         </article>
+
         <aside>
-            <p>This is the sidebar content.</p>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Article 1</a></li>
+                <li><a href="#">Article 2</a></li>
+            </ul>
         </aside>
     </main>
 
     <footer>
         <p>&copy; 2024 Emmanuel Origbo</p>
     </footer>
-
 </body>
 
 </html>
