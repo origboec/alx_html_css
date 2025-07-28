@@ -107,5 +107,41 @@ nav a {
   color: #FFF;
 }
 
+/* Quote Section */
+.quote {
+  background-color: #C271FF;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: left;
+}
+
+.quote-img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.quote-content blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 15px;
+}
+
+.quote-author {
+  font-weight: bold;
+  margin: 0;
+}
+
+.quote-title {
+  margin: 0;
+  font-style: italic;
+  font-size: 14px;
+}
+
 
 
