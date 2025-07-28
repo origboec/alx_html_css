@@ -1,10 +1,9 @@
-/* Reset and base */
+/* Base styles */
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  /*background: #071629;*/
-  background: url('images/Object.png') no-repeat center center/cover;
   color: white;
+  background-color: #071629;
 }
 
 /* Header */
@@ -13,6 +12,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 
 .logo {
@@ -24,6 +28,8 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -35,10 +41,25 @@ nav a {
 
 /* Hero section */
 .hero {
-  /*background: url('images/Object.png') no-repeat center center/cover;*/
+  background: url('images/Object.png') no-repeat center top;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100vh;
   text-align: center;
-  padding: 100px 20px 80px;
+  padding: 120px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 
 .hero h1 {
   font-size: 60px;
@@ -61,6 +82,8 @@ nav a {
   font-size: 14px;
   margin-top: 20px;
   cursor: pointer;
+  width: fit-content;           /* This ensures it's not full width */
+  display: inline-block; /* Keeps it to content size */
 }
 
 .learn {
@@ -80,7 +103,8 @@ nav a {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 40px;
-  padding: 60px 20px; 
+  padding: 60px 20px;
+  /*background: rgba(0,0,0,0.5);*/
 }
 
 .testimonial {
@@ -117,6 +141,7 @@ nav a {
   justify-content: center;
   gap: 40px;
   text-align: left;
+  flex-wrap: wrap;
 }
 
 .quote-img {
@@ -141,6 +166,83 @@ nav a {
   margin: 0;
   font-style: italic;
   font-size: 14px;
+}
+
+/* Popular Tutorials */
+.tutorials {
+  background-color: #fff;
+  color: #071629;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.tutorials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.tutorials h2 .highlight {
+  color: #C271FF;
+}
+
+.tutorial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tutorial-card {
+  width: 220px;
+  text-align: left;
+}
+
+.tutorial-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.tutorial-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  color: #6c6c6c;
+  margin: 0 0 10px;
+}
+
+.tutorial-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.tutorial-meta img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.tutorial-meta span {
+  font-weight: bold;
+  color: #071629;
+}
+
+.tutorial-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+}
+
+.tutorial-rating .stars {
+  color: #C271FF;
 }
 
 
