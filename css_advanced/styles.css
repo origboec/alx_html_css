@@ -1,0 +1,111 @@
+/* Reset and base */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*background: #071629;*/
+  background: url('images/Object.png') no-repeat center center/cover;
+  color: white;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Hero section */
+.hero {
+  /*background: url('images/Object.png') no-repeat center center/cover;*/
+  text-align: center;
+  padding: 100px 20px 80px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.tagline {
+  margin: 10px 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.register-btn {
+  background-color: #C271FF;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 12px 30px;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.learn {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.highlight {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+/* Testimonials section */
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 20px; 
+}
+
+.testimonial {
+  text-align: center;
+  max-width: 160px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.testimonial h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.testimonial p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #FFF;
+}
+
+
+
