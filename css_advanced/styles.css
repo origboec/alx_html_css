@@ -245,5 +245,62 @@ nav a {
   color: #C271FF;
 }
 
+/* Membership Section */
+.membership {
+  background-color: #071629;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.membership .highlight {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.membership-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.membership-option {
+  max-width: 200px;
+  text-align: center;
+}
+
+.membership-option img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.membership-option h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.membership-option p {
+  font-size: 14px;
+  color: #d1d1d1;
+  line-height: 1.4;
+}
+
+.membership .register-btn {
+  background-color: #C271FF;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 12px 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
 
 
