@@ -348,4 +348,50 @@ nav a {
   color: #333;
 }
 
+.footer {
+  background-color: #071629;
+  padding: 40px 0 20px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left .footer-logo {
+  width: 160px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
+
+.copyright {
+  color: #ffffff60;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
 
