@@ -13,7 +13,7 @@ This project reproduces a landing page from a Figma design **using only HTML and
 
 ---
 
-## 🖼️ Design Source (Figma)
+## Design Source (Figma)
 
 - Project file (view-only or duplicated): **[Your Figma link here]**
 - If access is restricted, use the ALX-provided Figma backup link.
