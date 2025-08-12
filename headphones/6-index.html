@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Headphones — CSS Pentagons</title>
+
+    <!-- Only this stylesheet for Task 6 -->
+    <link rel="stylesheet" href="6-styles.css" />
+</head>
+
+<body>
+
+    <!-- Minimal header just to keep context (no images required for this task) -->
+    <header class="hero">
+        <div class="container hero__content">
+            <h1>Our results</h1>
+            <p>CSS-only pentagons (no image files)</p>
+        </div>
+    </header>
+
+    <!-- ===== RESULTS (with CSS-only pentagons) ===== -->
+    <section class="results" id="results" aria-labelledby="results-title">
+        <div class="container">
+            <h2 id="results-title" class="section-title section-title--light">
+                Our results speak for themselves
+            </h2>
+            <p class="section-lead section-lead--light">
+                Below are four stats, each shown inside a pentagon drawn using pure CSS.
+            </p>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="pentagon" aria-hidden="true"><span>+2%</span></div>
+                    <p class="stat__caption">Lorem ipsum</p>
+                </div>
+                <div class="stat">
+                    <div class="pentagon" aria-hidden="true"><span>+2%</span></div>
+                    <p class="stat__caption">Lorem ipsum</p>
+                </div>
+                <div class="stat">
+                    <div class="pentagon" aria-hidden="true"><span>+2%</span></div>
+                    <p class="stat__caption">Lorem ipsum</p>
+                </div>
+                <div class="stat">
+                    <div class="pentagon" aria-hidden="true"><span>+2%</span></div>
+                    <p class="stat__caption">Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
